@@ -5,7 +5,7 @@ $linha      = fgets($arq);
 
 $data       = explode(",",$linha);
 
-$hostname   =   $data[0] ; 	
+$hostname   =   $data[0]; 	
 $dbname     =   $data[1]; 	
 $username   =   $data[2]; 	
 $pw         =   $data[3]; 		
