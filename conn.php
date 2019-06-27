@@ -1,6 +1,6 @@
 <?php
 
-$arq        = fopen('acesso.json','r');
+$arq        = fopen('acesso.txt','r');
 $linha      = fgets($arq);
 
 $data       = explode(",",$linha);
